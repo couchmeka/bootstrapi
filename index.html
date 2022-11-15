@@ -18,7 +18,14 @@
             Part 1: Random Dog Generator
         </h1>
         <div class="api-content">
-            [INSERT RANDOM DOG GENERATOR HERE]
+            <div class="card" style="width: 18rem;">
+                <img id="randomDog" class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Random Dog</h5>
+                  <p class="card-text"></p>
+                  <button id="dogButton" type="button" class="btn btn-info">Generate Dog</button>
+                </div>
+              </div>
         </div>
     </div>
 
@@ -27,7 +34,57 @@
             Part 2: Weather App
         </h1>
         <div class="api-content">
-            [INSERT WEATHER APP HERE]
+            <form id ="weatherApp">
+                <section class="vh-100" style="background-color: #4B515D;">
+                    <div class="container py-5 h-100">
+                  
+                      <div class="row d-flex justify-content-center align-items-center h-100">
+                        <div class="col-md-8 col-lg-6 col-xl-4">
+                  
+                          <div class="card" style="color: #4B515D; border-radius: 35px;">
+                            <div class="card-body p-4">
+                  
+                              <div class="d-flex">
+                                <h6 id="time"></h6>
+                              </div>
+                  
+                              <div class="d-flex flex-column text-center mt-5 mb-4">
+
+                                <h6 id="weather" class="display-4 mb-0 font-weight-bold" style="color: #1C2331;">  </h6>
+
+
+                                <span id="cityName" class="small" style="color: #868B94"></span>
+                              </div>
+                  
+                              <div class="d-flex align-items-center">
+                                <div class="flex-grow-1" style="font-size: 1rem;">
+
+                                  <div><i id="wind" class="fas fa-wind fa-fw" style="color: #868B94;"></i> <span class="ms-1">
+                                    </span></div>
+
+                                  <div><i id="descrip" class="fas fa-sun fa-fw" style="color: #868B94;"></i> <span class="ms-1">  </span>
+                                  </div>
+
+                                </div>
+
+                                <div>
+                                  <img id="weatherImg" src="https://media4.giphy.com/media/5XPmDz5wb8cj6/giphy.gif?cid=ecf05e47asmysgncu5w38xh1a4jh3p71dp5ebw0nudtwbim7&rid=giphy.gif&ct=g"
+                                    width="100px">
+                                </div>
+                              </div>
+                  
+                            </div>
+                          </div>
+                  
+                        </div>
+                      </div>
+                  
+                    </div>
+                  </section>
+                
+                <input id="cityInput" class="form-control form-control-lg" type="text" placeholder="Enter City">
+                <input id="citySubmit" class="btn btn-primary" type="submit" value="Submit">
+            </form>
         </div>
     </div>
 
