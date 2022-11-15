@@ -83,6 +83,7 @@ form.addEventListener('submit', (event) => {
         cityName.innerText = city.value
         wind.innerText = data.wind
         descrip.innerText = data.description
+        city.value = ""
 
          //use message url for the image
         
